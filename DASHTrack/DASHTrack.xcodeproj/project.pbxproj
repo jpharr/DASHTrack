@@ -22,6 +22,7 @@
 		78BE7DD91916E720006B4768 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BE7DB81916E720006B4768 /* UIKit.framework */; };
 		78BE7DE11916E720006B4768 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78BE7DDF1916E720006B4768 /* InfoPlist.strings */; };
 		78BE7DE31916E720006B4768 /* DASHTrackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BE7DE21916E720006B4768 /* DASHTrackTests.m */; };
+		78BE7DEE1916EB0D006B4768 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 78BE7DEC1916EB0D006B4768 /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		78BE7DDE1916E720006B4768 /* DASHTrackTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DASHTrackTests-Info.plist"; sourceTree = "<group>"; };
 		78BE7DE01916E720006B4768 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		78BE7DE21916E720006B4768 /* DASHTrackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DASHTrackTests.m; sourceTree = "<group>"; };
+		78BE7DED1916EB0D006B4768 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		78BE7DA81916E720006B4768 = {
 			isa = PBXGroup;
 			children = (
+				78BE7DEC1916EB0D006B4768 /* Model.xcdatamodeld */,
 				78BE7DBA1916E720006B4768 /* DASHTrack */,
 				78BE7DDC1916E720006B4768 /* DASHTrackTests */,
 				78BE7DB31916E720006B4768 /* Frameworks */,
@@ -256,6 +259,7 @@
 			files = (
 				78BE7DCE1916E720006B4768 /* SecondViewController.m in Sources */,
 				78BE7DC51916E720006B4768 /* AppDelegate.m in Sources */,
+				78BE7DEE1916EB0D006B4768 /* Model.xcdatamodeld in Sources */,
 				78BE7DCB1916E720006B4768 /* FirstViewController.m in Sources */,
 				78BE7DC11916E720006B4768 /* main.m in Sources */,
 			);
@@ -472,6 +476,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		78BE7DEC1916EB0D006B4768 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				78BE7DED1916EB0D006B4768 /* Model.xcdatamodel */,
+			);
+			currentVersion = 78BE7DED1916EB0D006B4768 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 78BE7DA91916E720006B4768 /* Project object */;
 }
