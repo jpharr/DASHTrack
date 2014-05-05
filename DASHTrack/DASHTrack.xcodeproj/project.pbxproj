@@ -23,6 +23,7 @@
 		78BE7DE11916E720006B4768 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78BE7DDF1916E720006B4768 /* InfoPlist.strings */; };
 		78BE7DE31916E720006B4768 /* DASHTrackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BE7DE21916E720006B4768 /* DASHTrackTests.m */; };
 		78BE7DEE1916EB0D006B4768 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 78BE7DEC1916EB0D006B4768 /* Model.xcdatamodeld */; };
+		78BE7DF01916EECA006B4768 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BE7DEF1916EECA006B4768 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		78BE7DE01916E720006B4768 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		78BE7DE21916E720006B4768 /* DASHTrackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DASHTrackTests.m; sourceTree = "<group>"; };
 		78BE7DED1916EB0D006B4768 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		78BE7DEF1916EECA006B4768 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78BE7DF01916EECA006B4768 /* CoreData.framework in Frameworks */,
 				78BE7DB71916E720006B4768 /* CoreGraphics.framework in Frameworks */,
 				78BE7DB91916E720006B4768 /* UIKit.framework in Frameworks */,
 				78BE7DB51916E720006B4768 /* Foundation.framework in Frameworks */,
@@ -107,6 +110,7 @@
 		78BE7DB31916E720006B4768 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				78BE7DEF1916EECA006B4768 /* CoreData.framework */,
 				78BE7DB41916E720006B4768 /* Foundation.framework */,
 				78BE7DB61916E720006B4768 /* CoreGraphics.framework */,
 				78BE7DB81916E720006B4768 /* UIKit.framework */,
