@@ -11,6 +11,9 @@
         <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="planID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <fetchedProperty name="fetchedProperty" optional="YES" syncable="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="Plan"/>
+        </fetchedProperty>
     </entity>
     <entity name="PlanCategory" syncable="YES">
         <attribute name="categoryID" optional="YES" attributeType="String" syncable="YES"/>
