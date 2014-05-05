@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3396" systemVersion="12F45" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="CategoryMetadata" syncable="YES">
+        <attribute name="categoryID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="forFurtherInfo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="overGoalHint" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="portionSize" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="underGoalHint" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Plan" syncable="YES">
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="planID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
     <entity name="PlanCategory" syncable="YES">
         <attribute name="categoryID" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
@@ -8,7 +20,24 @@
         <attribute name="incrementValue" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
+    <entity name="PlanHistory" syncable="YES">
+        <attribute name="categoryID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="dailyGoal" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="dailyTotal" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="entryDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="planID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="PlanItems" syncable="YES">
+        <attribute name="categoryID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="dailyGoal" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="displayOrder" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="planID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
     <elements>
         <element name="PlanCategory" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Plan" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="PlanItems" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="PlanHistory" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="CategoryMetadata" positionX="0" positionY="0" width="0" height="0"/>
     </elements>
 </model>
